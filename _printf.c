@@ -11,7 +11,7 @@ void print_buffer(char buffer[], int *buff_ind);
 int _printf(const char *format, ...)
 {
 	int y, printd = 0, printd_chars = 0;
-	Int width, flags, precision, size, buff_ind = 0;
+	int width, flags, precision, size, buff_ind = 0;
 	va_list list;
 	char buffer[BUFF_SIZE];
 
